@@ -5,9 +5,9 @@ with open("README.md","r",encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Google_scrape"
+REPO_NAME = "python_package"
 AUTHOUR_USER_NAME = "Biswajit"
-SRC_REPO = "python_package"
+SRC_REPO = "scrape_google"
 AUTHOR_EMAIL = "jeetmohapatra98@gmail.com"
 
 setuptools.setup(
@@ -23,5 +23,6 @@ setuptools.setup(
         "Bug Tracker":f"https://github.com/{AUTHOUR_USER_NAME}/{REPO_NAME}/issues"
     },
     package_dir={"":"src"},
-    packages=setuptools.find_packages(where="src")
+    packages=setuptools.find_packages(where="src"),
+    install_requires=['ensure == 1.0.2'],
 )
