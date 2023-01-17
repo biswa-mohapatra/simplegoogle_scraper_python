@@ -24,5 +24,5 @@ setuptools.setup(
     },
     package_dir={"":"src"},
     packages=setuptools.find_packages(where="src"),
-    install_requires=['ensure == 1.0.2'],
+    install_requires=["setuptools",'ensure == 1.0.2'],
 )
