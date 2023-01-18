@@ -1,4 +1,3 @@
-import typing
 import httpx
 import re
 from ensure import ensure_annotations
@@ -32,9 +31,9 @@ def search(
         }
 
         if search_number != None:
-            base_url: str = f"https://www.google.com/search?q={search_query}&num={search_number}&hl=en"
+            base_url = f"https://www.google.com/search?q={search_query}&num={search_number}&hl=en"
         else:
-            base_url: str = (
+            base_url = (
                 f"https://www.google.com/search?q={search_query}&num=10&hl=en"
             )
 
