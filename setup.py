@@ -5,7 +5,7 @@ with open("README.md","r",encoding="utf-8") as f:
 
 __version__ = "0.0.2"
 
-REPO_NAME = "python_package"
+REPO_NAME = "scrape_google"
 AUTHOUR_USER_NAME = "Biswajit"
 SRC_REPO = "scrape_google"
 AUTHOR_EMAIL = "jeetmohapatra98@gmail.com"
