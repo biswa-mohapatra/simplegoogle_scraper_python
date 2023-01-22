@@ -11,7 +11,7 @@ This package is meant to scrape the google search results!
 ### Note "installation steps"
     First let's do an easy pip installation of the library by running the following command -
     ```bash
-    pip install simplegoogle-scraper-python==0.1.4
+    pip install simplegoogle-scraper-python
     ```
 
 ### Short example
