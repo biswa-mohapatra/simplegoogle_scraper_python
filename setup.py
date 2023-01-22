@@ -7,7 +7,7 @@ __version__ = "0.0.4"
 
 REPO_NAME = "scrape-Google-results"
 AUTHOUR_USER_NAME = "biswa-mohapatra"
-SRC_REPO = "scrape_google"
+SRC_REPO = "scrape_google_results"
 AUTHOR_EMAIL = "jeetmohapatra98@gmail.com"
 
 setuptools.setup(
