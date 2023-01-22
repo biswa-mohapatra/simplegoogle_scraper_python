@@ -3,10 +3,10 @@ import setuptools
 with open("README.md","r",encoding="utf-8") as f:
     long_desc = f.read()
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
-REPO_NAME = "scrape_google"
-AUTHOUR_USER_NAME = "Biswajit"
+REPO_NAME = "scrape-Google-results"
+AUTHOUR_USER_NAME = "biswa-mohapatra"
 SRC_REPO = "scrape_google"
 AUTHOR_EMAIL = "jeetmohapatra98@gmail.com"
 
