@@ -3,11 +3,11 @@ import setuptools
 with open("README.md","r",encoding="utf-8") as f:
     long_desc = f.read()
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
-REPO_NAME = "simple-google-scraper"
+REPO_NAME = "simplegooglescraper"
 AUTHOUR_USER_NAME = "biswa-mohapatra"
-SRC_REPO = "simple-google-scraper"
+SRC_REPO = "simplegooglescraper"
 AUTHOR_EMAIL = "jeetmohapatra98@gmail.com"
 
 setuptools.setup(
