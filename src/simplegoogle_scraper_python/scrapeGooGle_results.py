@@ -1,8 +1,8 @@
 import httpx
 import re
 from ensure import ensure_annotations
-from simplegooglescraper.custom_exceptions import InvalidSearchqueryException
-from simplegooglescraper.logger import logger
+from simplegoogle_scraper_python.custom_exceptions import InvalidSearchqueryException
+from simplegoogle_scraper_python.logger import logger
 
 
 @ensure_annotations
