@@ -6,7 +6,7 @@ from simplegoogle_scraper_python.logger import logger
 
 
 @ensure_annotations
-def __clean_pettern() -> str:
+def clean_pettern() -> str:
     pattern = (
         '<div class="yuRUbf"><a href="(.*?)" data-jsarwt=".*?" '
         'data-usg=".*?" data-ved=".*?"><br><h3 class="LC20lb MBeuO DKV0Md">(.*?)</h3>.*?'
@@ -63,7 +63,7 @@ def search(
 
         logger.info(f"Fetched the search result for the provided query!")
 
-        for i in re.findall(pattern=__clean_pettern(), string=page):
+        for i in re.findall(pattern=clean_pettern(), string=page):
             results.append(
                 {
                     "url": i[0],

@@ -19,4 +19,4 @@ good_response = [
 
 @pytest.mark.parametrize("Query,Response",good_response)
 def test_search(Query,Response):
-    assert scrapeGooGle_results.__clean_pettern()==Response
+    assert scrapeGooGle_results.clean_pettern()==Response

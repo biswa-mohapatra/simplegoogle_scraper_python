@@ -20,4 +20,4 @@ class Testscrapegoogle:
     ]
     @pytest.mark.parametrize("Query,Response",good_response)
     def test_search(self,Query,Response):
-        assert scrapeGooGle_results.__clean_pettern()==Response
+        assert scrapeGooGle_results.clean_pettern()==Response
