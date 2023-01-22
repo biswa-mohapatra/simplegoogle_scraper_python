@@ -17,7 +17,7 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description="A small python package for craping google search results.",
     long_description=long_desc,
-    long_description_content="text/markdown",
+    long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOUR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker":f"https://github.com/{AUTHOUR_USER_NAME}/{REPO_NAME}/issues"
