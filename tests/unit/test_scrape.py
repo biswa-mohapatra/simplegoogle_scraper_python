@@ -1,6 +1,6 @@
 import pytest
-from ScrapeGoogleResults import scrapeGooGle_results
-from ScrapeGoogleResults.custom_exceptions import InvalidSearchqueryException
+from simplegooglescraper import scrapeGooGle_results
+from simplegooglescraper.custom_exceptions import InvalidSearchqueryException
 
 good_response = [
     ("", '<div class="yuRUbf"><a href="(.*?)" data-jsarwt=".*?" '

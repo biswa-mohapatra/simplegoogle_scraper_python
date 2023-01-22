@@ -5,9 +5,9 @@ with open("README.md","r",encoding="utf-8") as f:
 
 __version__ = "0.1.0"
 
-REPO_NAME = "scrape-Google-results"
+REPO_NAME = "simple-google-scraper"
 AUTHOUR_USER_NAME = "biswa-mohapatra"
-SRC_REPO = "scrape-Google-results"
+SRC_REPO = "simple-google-scraper"
 AUTHOR_EMAIL = "jeetmohapatra98@gmail.com"
 
 setuptools.setup(
@@ -15,7 +15,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOUR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for craping google search results.",
+    description="A small python package for scraping google search results.",
     long_description=long_desc,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOUR_USER_NAME}/{REPO_NAME}",
