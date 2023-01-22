@@ -1,8 +1,8 @@
 import httpx
 import re
 from ensure import ensure_annotations
-from scrape_google_results.custom_exceptions import InvalidSearchqueryException
-from scrape_google_results.logger import logger
+from ScrapeGoogleResults.custom_exceptions import InvalidSearchqueryException
+from ScrapeGoogleResults.logger import logger
 
 
 @ensure_annotations
