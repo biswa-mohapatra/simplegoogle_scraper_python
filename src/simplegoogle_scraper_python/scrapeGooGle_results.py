@@ -6,7 +6,7 @@ from simplegoogle_scraper_python.logger import logger
 
 
 @ensure_annotations
-def clean_pettern() -> str:
+def __clean_pettern() -> str:
     pattern = (
         '<div class="yuRUbf"><a href="(.*?)" data-jsarwt=".*?" '
         'data-usg=".*?" data-ved=".*?"><br><h3 class="LC20lb MBeuO DKV0Md">(.*?)</h3>.*?'
@@ -20,6 +20,28 @@ def clean_pettern() -> str:
 def search(
     search_query: str, search_number: int
 ) -> list:
+    """
+    This is a simple google search result scraping algorithm.
+
+    Args:
+        search_query -> string: Your search query in string format.
+        search_number -> integer: Your desiered number of search results.
+
+    Return:
+        List of json outputs containing title, link and snippet.
+        example:
+            {
+                url:url for the matched search string,
+                title:title of the url,
+                description:short description of the scraped results
+            }
+    Exception:
+        If the searching query is absent, it will raise InvalidSearchqueryException.
+    
+    Author: Biswajit Rajaguru Mohapatra
+
+    Version: 0.1.4
+    """
     try:
         if search_query is None:
             raise InvalidSearchqueryException("Search Query can not be None!")
@@ -41,7 +63,7 @@ def search(
 
         logger.info(f"Fetched the search result for the provided query!")
 
-        for i in re.findall(pattern=clean_pettern(), string=page):
+        for i in re.findall(pattern=__clean_pettern(), string=page):
             results.append(
                 {
                     "url": i[0],
