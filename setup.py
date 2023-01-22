@@ -3,7 +3,7 @@ import setuptools
 with open("README.md","r",encoding="utf-8") as f:
     long_desc = f.read()
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 
 REPO_NAME = "simplegoogle_scraper_python"
 AUTHOUR_USER_NAME = "biswa-mohapatra"
