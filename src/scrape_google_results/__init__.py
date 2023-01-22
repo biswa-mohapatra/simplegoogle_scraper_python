@@ -1,0 +1,1 @@
+from scrape_google_results.scrape_google import search

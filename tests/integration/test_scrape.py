@@ -1,6 +1,6 @@
 import pytest
-from scrape_google import scrape_google
-from scrape_google.custom_exceptions import InvalidSearchqueryException
+from scrape_google_results import scrape_google
+from scrape_google_results.custom_exceptions import InvalidSearchqueryException
 
 
 class Testscrapegoogle:
