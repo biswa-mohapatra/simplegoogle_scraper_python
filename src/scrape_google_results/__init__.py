@@ -1,1 +1,1 @@
-from scrape_google_results.scrape_google import search
+from scrape_google_results.scrapeGooGle_results import search

@@ -1,5 +1,5 @@
 import pytest
-from scrape_google_results import scrape_google
+from scrape_google_results import scrapeGooGle_results
 from scrape_google_results.custom_exceptions import InvalidSearchqueryException
 
 good_response = [
@@ -19,4 +19,4 @@ good_response = [
 
 @pytest.mark.parametrize("Query,Response",good_response)
 def test_search(Query,Response):
-    assert scrape_google.clean_pettern()==Response
+    assert scrapeGooGle_results.clean_pettern()==Response
