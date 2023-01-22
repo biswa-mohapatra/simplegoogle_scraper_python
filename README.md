@@ -8,7 +8,7 @@ This package is meant to scrape the google search results!
 
 ### Installation
 
-!!! note "installation steps"
+### Note "installation steps"
     First let's do an easy pip installation of the library by running the following command -
     ```bash
     pip install simplegoogle-scraper-python==0.1.4
@@ -25,7 +25,7 @@ scrapeGooGle_results.search(search_query,search_number)
 
 
 | Args      | Type | Description     |
-| :---        |    :----:   |          ---: |
+| :---:|:----:   |:---: |
 | search_query      | string       | Your desired search query.   |
 |  search_number  | integer        | Your desired number of results.      |
 |  return  | list       | list of json outputs with title, link and snippet.      |
