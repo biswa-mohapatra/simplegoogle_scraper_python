@@ -131,3 +131,7 @@ dmypy.json
 # Ignore log files
 *.log
 .vscode/*
+
+# Ignoring reserch file
+reserch
+reserch/google-scrape.ipynb
