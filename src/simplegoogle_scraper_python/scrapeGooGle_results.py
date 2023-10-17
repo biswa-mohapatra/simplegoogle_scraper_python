@@ -2,7 +2,7 @@ import httpx
 import re
 from ensure import ensure_annotations
 from simplegoogle_scraper_python.custom_exceptions import InvalidSearchqueryException
-from simplegoogle_scraper_python.logger import logger
+
 
 
 @ensure_annotations
@@ -60,8 +60,6 @@ def search(
             )
 
         page = httpx.get(base_url, headers=headers).text
-
-        logger.info(f"Fetched the search result for the provided query!")
 
         for i in re.findall(pattern=clean_pettern(), string=page):
             results.append(
